@@ -17,6 +17,20 @@
 - `GET /api/media` - ดึงข้อมูลหนังและเพลงทั้งหมด
 - `POST /api/media` - เพิ่มรายการหนังหรือเพลงใหม่ลงฐานข้อมูล
 - `DELETE /api/media/:id` - ลบรายการตาม ID
+  
+ movie-music-store/
+├── server/
+│   └── server.js         
+├── public/
+│   ├── index.html       
+│   ├── style.css         
+│   └── app.js            
+├── .env                  
+├── .gitignore           
+├── package.json          
+├── README.md            
+├── debug-1.png           
+└── debug-2.png          
 
 ## วิธีติดตั้ง (Installation)
 ```bash
