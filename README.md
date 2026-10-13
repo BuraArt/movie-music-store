@@ -35,7 +35,12 @@ movie-music-store/
 ├── package.json          # จัดการแพ็กเกจและ Dependencies
 ├── README.md             # รายละเอียดโปรเจกต์และวิธีใช้งาน
 ├── debug-1.png           # ภาพหลักฐานการดีบักการเชื่อมต่อเซิร์ฟเวอร์
-└── debug-2.png           # ภาพหลักฐานการทำงานของหน้าเว็บและการเรียก API     
+└── debug-2.png           # ภาพหลักฐานการทำงานของหน้าเว็บและการเรียก API
+
+
+
+```text
+5. Installation
 
 ## วิธีติดตั้ง (Installation)
 ```bash
