@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie & Music Store Collection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎬 🎵 Movie & Music Store</h1>
+    <p class="subtitle">ระบบจัดการรายการหนังและเพลงโปรด</p>
+
+    <form id="media-form" class="card">
+      <h2>เพิ่มสินค้า / รายการใหม่</h2>
+      <div class="form-group">
+        <label>ชื่อเรื่อง / ชื่อเพลง:</label>
+        <input type="text" id="title" required placeholder="เช่น Interstellar หรือ Shape of You">
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>ประเภท:</label>
+          <select id="type">
+            <option value="Movie">🎬 ภาพยนตร์ (Movie)</option>
+            <option value="Music">🎵 เพลง (Music)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>ผู้กำกับ / ศิลปิน:</label>
+          <input type="text" id="artist" placeholder="เช่น Christopher Nolan">
+        </div>
+        <div class="form-group">
+          <label>ราคา (บาท):</label>
+          <input type="number" id="price" value="199">
+        </div>
+        <div class="form-group">
+          <label>คะแนน (1-5):</label>
+          <input type="number" id="rating" min="1" max="5" value="5">
+        </div>
+      </div>
+      <button type="submit" class="btn-submit">➕ บันทึกข้อมูลลงฐานข้อมูล</button>
+    </form>
+
+    <h2>รายการในร้านทั้งหมด</h2>
+    <div id="media-list" class="grid"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
