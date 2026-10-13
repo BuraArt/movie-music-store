@@ -17,7 +17,12 @@
 - `GET /api/media` - ดึงข้อมูลหนังและเพลงทั้งหมด
 - `POST /api/media` - เพิ่มรายการหนังหรือเพลงใหม่ลงฐานข้อมูล
 - `DELETE /api/media/:id` - ลบรายการตาม ID
-  
+
+
+เว็บแอปพลิเคชันระบบร้านค้า/คอลเลกชันหนังและเพลง พัฒนาด้วย Node.js, Express และเชื่อมต่อกับฐานข้อมูล MongoDB
+
+## โครงสร้างโปรเจกต์
+```text
 movie-music-store/
 ├── server/
 │   └── server.js         # เซิร์ฟเวอร์และ API Endpoints (Node.js, Express, MongoDB)
@@ -30,7 +35,7 @@ movie-music-store/
 ├── package.json          # จัดการแพ็กเกจและ Dependencies
 ├── README.md             # รายละเอียดโปรเจกต์และวิธีใช้งาน
 ├── debug-1.png           # ภาพหลักฐานการดีบักการเชื่อมต่อเซิร์ฟเวอร์
-└── debug-2.png           # ภาพหลักฐานการทำงานของหน้าเว็บและการเรียก API        
+└── debug-2.png           # ภาพหลักฐานการทำงานของหน้าเว็บและการเรียก API     
 
 ## วิธีติดตั้ง (Installation)
 ```bash
